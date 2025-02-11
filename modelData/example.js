@@ -16,6 +16,7 @@ if (models === undefined) {
 
 models.exampleModel = function () {
   return {
-    name: "Unknown Name",
+    name: "Group 6",
+    motto: "We are group 6 weeeeee"
   };
 };
