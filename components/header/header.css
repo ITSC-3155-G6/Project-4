@@ -5,8 +5,14 @@ header {
     box-shadow: 10px 10px rgb(0, 100, 53);
     color: white;
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
     margin-bottom: -30px;
     padding: -5px;
+}
+.titl {
+    display: flex;
+    justify-content: center;
+}
+.des {
+    display: flex;
+    justify-content: center;
 }
