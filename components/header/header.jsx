@@ -1,26 +1,23 @@
 import React from 'react';
 import './header.css';
-import '../example/Example.jsx'
+import '../example/Example.jsx';
 
 class Header extends React.Component{
   constructor(props){
     super(props);
     this.state = {
       name: window.models.exampleModel().name,
-      motto: window.models.exampleModel().motto,
-      counter: 0,
-      inputValue: '',
-      buttonWasClicked: '',
+      motto: window.models.exampleModel().motto
     };
   }
   
   render() {
     return (
     <header>
-      <h1 class="titl">
+      <h1 className="titl">
         <code>{this.state.name}</code>
       </h1>
-      <p class="des">
+      <p className="des">
         <code>{this.state.motto}</code>
       </p>
     </header>
