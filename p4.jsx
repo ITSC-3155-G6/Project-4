@@ -8,7 +8,7 @@ import States from './components/states/States';
 
 ReactDOM.render(
     <Header/>,
-    document.getElementById('reactappHeader')
+    document.getElementById('header')
 );
 
 class Toggle extends React.Component {
