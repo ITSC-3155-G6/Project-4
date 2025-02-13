@@ -1,13 +1,13 @@
 import React from 'react';
 import './header.css';
-import '../example/Example.jsx'
+import '../example/Example.jsx';
 
 class Header extends React.Component{
   constructor(props){
     super(props);
     this.state = {
       name: window.models.exampleModel().name,
-      motto: window.models.exampleModel().motto,
+      motto: window.models.exampleModel().motto
     };
   }
   
